@@ -11,7 +11,7 @@
 --- 
 
 # 2. Download LLM Model
-ollama run minimax-m2.7:cloud
+ollama pull minimax-m2.7:cloud
 
 # 3. Launch OpenClaw with minimax-m2.7:cloud in one command
 ollama launch openclaw --model minimax-m2.7:cloud --yes
