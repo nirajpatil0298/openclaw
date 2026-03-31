@@ -11,8 +11,8 @@
 --- 
 
 # 2. Download LLM Model
-ollama pull qwen3.5 --yes
+ollama run minimax-m2.7:cloud
 
-# 3. Launch OpenClaw with qwen3.5 in one command
-ollama launch openclaw --model qwen3.5 --yes
+# 3. Launch OpenClaw with minimax-m2.7:cloud in one command
+ollama launch openclaw --model minimax-m2.7:cloud --yes
 
